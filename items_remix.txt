@@ -1,0 +1,266 @@
+   <!-- 
+
+                    <div class="item card">
+                        <img src="imagenes/95838876_1302481936614908_41182366932140032_o.jpg" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                          <h5 class="card-title item-title">Sandwich de Pollo</h5>
+                          <p class="card-text">Troceados de filete de pollo, tocineta, salteados en plancha, cebolla grille, julianas de pimentón, lechuga, tomate, queso tipo mozarella, salsa bbq y papas a la francesa.</p>
+                          <p class="card-text item-price"><small class="text-muted">$12.500</small></p>
+                          <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                      </div>
+                    <div class="item card">
+                      <img src="imagenes/95629541_1302485609947874_78354144942882816_o.jpg" class="card-img-top item-image" alt="La imagen no está disponible">
+                      <div class="card-body">
+                        <h5 class="card-title item-title">Palito de Queso</h5>
+                        <p class="card-text item-price"><small class="text-muted">$2.000</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                      </div>
+                    </div>
+                    <div class="item card">
+                      <img src="imagenes/95316996_1302486089947826_2933680473844482048_o.jpg" class="card-img-top item-image" alt="La imagen no está disponible">
+                      <div class="card-body">
+                        <h5 class="card-title item-title">Tortas Porción</h5>
+                        <p class="card-text item-price"><small class="text-muted">$4.500</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                      </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="card-deck">
+                    <div class="item card">
+                        <img src="imagenes/95511369_1302485139947921_4195425218392489984_o.jpg" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Café Frappé</h5>
+                        <p class="card-text">Combinación de hielo, leche, café espresso, un toque de sabor Balafón, crema chantilly y salsa de chocolate.</p>
+                        <p class="card-text item-price"><small class="text-muted">$6.500</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                    <div class="item card">
+                        <img src="imagenes/cafe.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Cafée</h5>
+                        <p class="card-text">(Tinto) una aromática suave muy colombiano.</p>
+                        <p class="card-text item-price"><small class="text-muted">$1.500</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                    <div class="item card">
+                        <img src="imagenes/expreso.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Espresso</h5>
+                        <p class="card-text">Verdadera crema de café.</p>
+                        <p class="card-text item-price"><small class="text-muted">$2.400</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                </div>
+                                <hr>
+                                <div class="card-deck">
+                                    <div class="item card">
+                                        <img src="imagenes/late.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Latte</h5>
+                                        <p class="card-text">Un café con leche a la colombiana.</p>
+                                        <p class="card-text item-price"><small class="text-muted">$3.800</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                    <div class="item card">
+                                        <img src="imagenes/maquiato.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Maquiato</h5>
+                                        <p class="card-text">Un espresso corto con un toque de crema.</p>
+                                        <p class="card-text item-price"><small class="text-muted">$2.800</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                    <div class="item card">
+                                        <img src="imagenes/capuccino.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Capuccino</h5>
+                                        <p class="card-text">Un espresso, buena crema y una rica bebida caliente.</p>
+                                        <p class="card-text item-price"><small class="text-muted">$4.500</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                </div>
+                <hr>
+                <div class="card-deck">
+                    <div class="item card">
+                        <img src="imagenes/capuccino con ballys.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Capuccino con Ballys</h5>
+                        <p class="card-text">Capucciono caliente con un toque de crema de whisky.</p>
+                        <p class="card-text item-price"><small class="text-muted">$5.500</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                    <div class="item card">
+                        <img src="imagenes/mocaccino.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Mocaccino</h5>
+                        <p class="card-text">Capuccino con buen chocolate, combinación perfecta.</p>
+                        <p class="card-text item-price"><small class="text-muted">$5.000</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                    <div class="item card">
+                        <img src="imagenes/milo.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Milo</h5>
+                        <p class="card-text">Milo Frio.</p>
+                        <p class="card-text item-price"><small class="text-muted">$8.000</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                </div>
+                                <hr>
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <img src="imagenes/Opera.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Opera</h5>
+                                        <p class="card-text">Postre helado con 3 bolas combinadas, café, salsa de chocolate, crema de whisky (opcional) y crema chantilly.</p>
+                                        <p class="card-text item-price"><small class="text-muted">$8.000</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                    <div class="item card">
+                                        <img src="imagenes/malteadabalafon.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Malteada Balafón</h5>
+                                        <p class="card-text">Helado batido, leche, crema de whisky (opcional), salsa de chocolate y crema chantilly.</p>
+                                        <p class="card-text item-price"><small class="text-muted">$8.000</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                    <div class="item card">
+                                        <img src="imagenes/IceIce.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Ice Coffee</h5>
+                                        <p class="card-text">Hidrate, refreca tu cuerpo con café, hielo endulzado con panela, leche, decorado con caramelo y chantilly.</p>
+                                        <p class="card-text item-price"><small class="text-muted">$6.500</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                </div>
+                <hr>
+                <div class="card-deck">
+                    <div class="item card">
+                        <img src="imagenes/Oqueso.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Omelette Queso</h5>
+                        <p class="card-text">Tortillas de huevo solo con queso, acompañado de fruta y pan.</p>
+                        <p class="card-text item-price"><small class="text-muted">$5.500</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                    <div class="item card">
+                        <img src="imagenes/Obalafon.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Omelette Balafón</h5>
+                        <p class="card-text"> Tortilla de huevos, con relleno de pimentón, tocineta, cebolla, queso, acompañado de fruta y pan.</p>
+                        <p class="card-text item-price"><small class="text-muted">$8.500</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                    <div class="item card">
+                        <img src="imagenes/Ovegetales.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Omelette Vegetales</h5>
+                        <p class="card-text">Tortilla de huevos, relleno de vegetales disponibles acompañado con fruta y pan.</p>
+                        <p class="card-text item-price"><small class="text-muted">$7.500</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                </div>
+                                <hr>
+                                <div class="card-deck">
+                                    <div class="item card">
+                                        <img src="imagenes/Huevos al gusto.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Huevos Al Gusto</h5>
+                                        <p class="card-text">Revueltos o enteros y los ngredientes disponibles, acompañado con fruta y pan.</p>
+                                        <p class="card-text item-price"><small class="text-muted">$7.500</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                    <div class="item card">
+                                        <img src="imagenes/empanadas.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Empanadas</h5>
+                                        <p class="card-text">5 ricas empanaditas con salsas de balafón.</p>
+                                        <p class="card-text item-price"><small class="text-muted">$7.500</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                    <div class="item card">
+                                        <img src="imagenes/miniburguers.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Mini Burguers</h5>
+                                        <p class="card-text">Pica unas deliciosas hamburguesas minis (4) con queso, tocineta, tomate y papas a la francesa.</p>
+                                        <p class="card-text item-price"><small class="text-muted">$19.500</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                    </div>
+                <hr>
+                <div class="card-deck">
+                    <div class="item card">
+                        <img src="imagenes/Quesadilla flat.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Quesadilla Flat</h5>
+                        <p class="card-text">Combinación de queso tipo mozarella, queso amarillo y queso crema.</p>
+                        <p class="card-text item-price"><small class="text-muted">$14.500</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                    <div class="item card">
+                        <img src="imagenes/palitos de queso.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Palitos de Queso</h5>
+                        <p class="card-text">3 pailtos de queso horneados, servidos con salsa de piña, mora y queso.</p>
+                        <p class="card-text item-price"><small class="text-muted">$8.500</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                    <div class="item card">
+                        <img src="imagenes/Baburguer.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                        <div class="card-body">
+                        <h5 class="card-title item-title">Balafón Burguer</h5>
+                        <p class="card-text">Carne de hamburguesa, tocineta, queso tipo mozarella, queso amarillo, cebolla grillé, tomate, lechuga y papas a la francesa.</p>
+                        <p class="card-text item-price"><small class="text-muted">$11.500</small></p>
+                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                        </div>
+                    </div>
+                </div>
+                                <hr>
+                                <div class="card-deck">
+                                    <div class="item card">
+                                        <img src="imagenes/hojaldre.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Pasteles Hojaldre Salados</h5>
+                                        <p class="card-text item-price"><small class="text-muted">$2.000</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                    <div class="item card">
+                                        <img src="imagenes/dulce.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="card-title item-title">Pasteles de Hojaldre Dulce</h5>
+                                        <p class="card-text item-price"><small class="text-muted">$2.000</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                    <div class="item card">
+                                        <img src="imagenes/brownie.PNG" class="item-image card-img-top" alt="La imagen no está disponible">
+                                        <div class="card-body">
+                                        <h5 class="item-title card-title">Brownie con Helado</h5>
+                                        <p class="item-price card-text"><small class="text-muted">$6.500</small></p>
+                                        <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            -->

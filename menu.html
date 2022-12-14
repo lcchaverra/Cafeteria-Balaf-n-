@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Informacion de la Pestaña-->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="estilos.css">
+         <!--Scrips-->
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+
+    <script defer src="js/main.js"></script>
+    <script defer src="js/tienda.js"></script>
+    <title>Café | Menú </title>
+  </head>
+  <!--Cuerpo de la Pagina Web-->
+  <body class="container-fluid slider">
+    <hr>
+    <!-- Menú de Navegación -->
+    <nav class="container Div-Padre">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <a class="navbar-brand" href="index.html">Inicio</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+               <a class="nav-link" href="menu.html">Menú <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Nosotros
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="contacto.html">Contactanos</a>
+               </div>
+             </li>
+           </ul>
+         </div>
+         <div>
+             <a href="https://www.facebook.com/balafoncafe/" class="btn btn-outline-primary">Facebook</a>
+         </div>
+       </nav>
+     </nav>
+       <!--Cabezera de la Pagina Web-->
+    <header>
+    <img src="imagenes/logo.png" alt="La imagen no está disponible" width="150" class="MargenesLogo">
+    <img src="imagenes/tarjeta.PNG" alt="La imagen no está disponible" class="MargenesTarjeta">
+    </header>
+    <hr>
+      <!-- Información Principal -->
+      <h1 class="TituloPrincipal">BALAFON Café</h1>
+      <p class="SubTituloPrincipal">
+          Restaurante & Caféteria <br>
+      </p>
+      <section class="container">
+        <h2 class="TituloContactoMargen">¡Menú!</h2>
+        <p> Bienvenido a la seccion de menú, aqui encontrarás todas nuestras recetas que te harán agua la boca</p>
+      </section>
+            <!-- Cartas de Menu -->
+            <section id="cardsContainer" class="container mt-1 pt-5">
+              <!-- Prueba -->
+              <!-- <div class="item card">
+                <img src="imagenes/cafe.PNG" class="card-img-top item-image" alt="La imagen no está disponible">
+                <div class="card-body">
+                  <h5 class="card-title item-title">Aguapanela</h5>
+                  <p class="card-text item-price"><small class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum qui, quas aliquid deleniti ullam quasi mollitia, omnis odit natus incidunt quibusdam! Nam sapiente atque maxime libero nobis molestiae? Cum, enim.</small></p>
+                  <button class="item-button btn btn btn-danger addToCart">Añadir al Pedido</button>
+                </div>
+              </div> -->
+              <!-- Fin prueba -->
+            </section>
+            
+            <!-- Recuadro Listado de Compas -->
+            <div class="jumbotron jumbotron-fluid mt-5 rounded-0">
+              <div class="container">
+    <section class="shopping-cart">
+      <div class="container">
+          <h1 class="text-center">Listas de Compra</h1>
+          <hr>
+          <div class="row">
+              <div class="col-6">
+                  <div class="shopping-cart-header">
+                      <h6>Producto</h6>
+                  </div>
+              </div>
+              <div class="col-2">
+                  <div class="shopping-cart-header">
+                      <h6 class="text-truncate">Precio</h6>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="shopping-cart-header">
+                      <h6>Cantidad</h6>
+                  </div>
+              </div>
+          </div>
+          <div class="shopping-cart-items shoppingCartItemsContainer">
+          </div>
+          <div class="row">
+              <div class="col-12">
+                  <div class="shopping-cart-total d-flex align-items-center">
+                      <p class="mb-0">Total</p>
+                      <p class="ml-4 mb-0 shoppingCartTotal">0$</p>
+                      <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                          data-delay="2000">
+                          <div class="toast-header">
+                              <span>✅</span>
+                              <strong class="mr-auto ml-1 text-secondary">Elemento en el Listado</strong>
+                              <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                          <div class="toast-body text-white">
+                              Se aumentó correctamente la cantidad
+                          </div>
+                      </div>
+                      <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                          data-target="#comprarModal">Comprar</button>
+                  </div>
+              </div>
+          </div>
+          <!-- START MODAL COMPRA -->
+          <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="comprarModalLabel">Formulario de Pago</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                        <form id="formCompra" action="#">
+                        <div class="col-md-6">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input name ="nombre" type="text" class="form-control" id="nombre">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="fecha" class="form-label">Fecha</label>
+                            <input name ="fecha" type="datetime-local" class="form-control" id="fecha">
+                          </div>
+                          <div class="col-12">
+                            <label for="direccion" class="form-label">Dirección</label>
+                            <input name="direccion" type="text" class="form-control" id="direccion" placeholder="calle, carrera, etc">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="telefono" class="form-label">Telefono</label>
+                            <input name = "telefono" type="text" class="form-control" id="telefono">
+                          </div>
+                          <div class="col-md-4">
+                            <label for="tipopago" class="form-label">Tipo de Pago</label>
+                            <select name = "tipopago" id="tipopago" class="form-select">
+                              <option selected>Efectivo</option>
+                              <option>Tarjeta</option>
+                            </select>
+                          </div>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <p>Nota: el pago es contra entrega, Pronto recibirá su pedido</p>
+                          <button id="btnComprar" type="button" class="btn btn-secondary" data-dismiss="modal" action="/adduser">Confirmar el Pago</button>
+                      </div>
+                    </form>
+                  </div>
+              </div>
+          </div>
+          <!-- END MODAL COMPRA -->
+      </div>
+  </section>
+              </div>
+            </div>
+            <!-- Recuadro Jumbotron -->
+      <div class="jumbotron jumbotron-fluid mt-5 rounded-0">
+        <div class="container">
+          <h1 class="display-4">Nuestro Menú</h1>
+          <p class="lead">Hechale un ojo a nuestro Menú con recetas unicas que te dejarán con ganas de probarlas.</p>
+        </div>
+      </div>
+      <!-- Pie de PAgina -->
+      <div>
+        <hr>
+        <p class="pieconfi">
+            ©2020 Desarrollado por Luis Carlos Chaverra Córdoba
+        </p>
+        <hr>
+    </div>
+  </body>
+</html>

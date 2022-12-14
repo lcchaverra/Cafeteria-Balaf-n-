@@ -1,0 +1,164 @@
+[
+  {
+    "id": "1",
+    "title": "Sandwich de Pollo",
+    "price": "12.500",
+    "image": "95838876_1302481936614908_41182366932140032_o.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Palito de Queso",
+    "price": "2.000",
+    "image": "95629541_1302485609947874_78354144942882816_o.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Tortas Porción",
+    "price": "4.500",
+    "image": "95316996_1302486089947826_2933680473844482048_o.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Café Frappé",
+    "price": "6.500",
+    "image": "95511369_1302485139947921_4195425218392489984_o.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Cafée",
+    "price": "1.500",
+    "image": "cafe.PNG"
+  },
+  {
+    "id": "6",
+    "title": "Espresso",
+    "price": "2.400",
+    "image": "expreso.PNG"
+  },
+  {
+    "id": "7",
+    "title": "Latte",
+    "price": "3.800",
+    "image": "late.PNG"
+  },
+  {
+    "id": "8",
+    "title": "Maquiato",
+    "price": "2.800",
+    "image": "maquiato.PNG"
+  },
+  {
+    "id": "9",
+    "title": "Capuccino",
+    "price": "4.500",
+    "image": "capuccino.PNG"
+  },
+  {
+    "id": "10",
+    "title": "Capuccino con ballys",
+    "price": "5.500",
+    "image": "capuccinoconballys.PNG"
+  },
+  {
+    "id": "11",
+    "title": "Mocaccino",
+    "price": "5.000",
+    "image": "mocaccino.PNG"
+  },
+  {
+    "id": "12",
+    "title": "Milo",
+    "price": "8.000",
+    "image": "milo.PNG"
+  },
+  {
+    "id": "13",
+    "title": "Opera",
+    "price": "8.000",
+    "image": "Opera.PNG"
+  },
+  {
+    "id": "14",
+    "title": "Malteada Balafón",
+    "price": "8.500",
+    "image": "malteadabalafon.PNG"
+  },
+  {
+    "id": "15",
+    "title": "Ice Coffee",
+    "price": "6.500",
+    "image": "IceIce.PNG"
+  },
+  {
+    "id": "16",
+    "title": "Omelette Queso",
+    "price": "5.500",
+    "image": "Oqueso.PNG"
+  },
+  {
+    "id": "17",
+    "title": "Omelette Balafón",
+    "price": "8.500",
+    "image": "Obalafon.PNG"
+  },
+  {
+    "id": "18",
+    "title": "Omelette Vegetales",
+    "price": "7.500",
+    "image": "Ovegetales.PNG"
+  },
+  {
+    "id": "19",
+    "title": "Huevos Al Gusto",
+    "price": "7.500",
+    "image": "Huevosalgusto.PNG"
+  },
+  {
+    "id": "20",
+    "title": "Empanadas",
+    "price": "7.500",
+    "image": "empanadas.PNG"
+  },
+  {
+    "id": "21",
+    "title": "Mini Burguers",
+    "price": "19.500",
+    "image": "miniburguers.PNG"
+  },
+  {
+    "id": "22",
+    "title": "Quesadilla Flat",
+    "price": "14.500",
+    "image": "Quesadillaflat.PNG"
+  },
+  {
+    "id": "23",
+    "title": "Palitos de Queso",
+    "price": "8.500",
+    "image": "palitosdequeso.PNG"
+  },
+  {
+    "id": "24",
+    "title": "Balafón Burguer",
+    "price": "11.500",
+    "image": "Baburguer.PNG"
+  },
+  {
+    "id": "25",
+    "title": "Pasteles Hojaldre Salados",
+    "price": "2.000",
+    "image": "hojaldre.PNG"
+  },
+  {
+    "id": "26",
+    "title": "Pasteles de Hojaldre Dulce",
+    "price": "2.000",
+    "image": "dulce.PNG"
+  },
+  {
+    "id": "27",
+    "title": "Brownie con Helado",
+    "price": "6.500",
+    "image": "brownie.PNG"
+  }
+]

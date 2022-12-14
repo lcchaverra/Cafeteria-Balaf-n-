@@ -1,0 +1,17 @@
+Please take a note of the details below these are needed to access your account.
+Your account is now active.
+
+Control panel username:	ottos_28223932
+Control panel password:	**********
+Control panel URL:	cpanel.tonohost.com
+MySQL username	ottos_28223932
+MySQL password:	**********
+MySQL hostname:	sql211.tonohost.com
+FTP username:	ottos_28223932
+FTP password:	**********
+FTP host name:	ftp.tonohost.com
+Your Website URL:	http://balaffoncoffe.tonohost.com
+ 	 
+Thank you for choosing us to host your websites!
+
+tonohost.com hosting services 2021

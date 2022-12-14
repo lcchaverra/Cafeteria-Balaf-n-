@@ -1,0 +1,128 @@
+.MargenesLogo{
+    margin-left: 80px;
+}
+
+.MargenesTarjeta{
+    margin-left: 550px;
+    margin-bottom: 40px;
+}
+
+.TituloPrincipal{
+    color: tomato;
+    font-size: 50px;
+    margin-left: 250px;
+    margin-top: -150px;
+}
+.MargenSlider{
+    margin-left: 280px;
+    margin-top: 40px;
+}
+.SubTituloPrincipal{
+    font-size: 20px;
+    margin-left: 310px;
+    margin-top: -10px;
+}
+
+.TituloContactoMargen{
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.MargenCoffe{
+    margin-left: 550px;
+    margin-top: 35px;
+}
+.MargenImagenPrincipal{
+    margin: 100px 170px;
+}
+
+.MargenImagen2{
+    margin: -90px 170px;
+}
+.MargenImagen3{
+    margin-left: 660px;
+    margin-top: -320px;
+}
+.MargenLocal1{
+    margin-left: 730px;
+    margin-top: -440px;
+}
+.MargenLocal2{
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.MargenImgSegundaria{
+    margin-left: 170px;
+    margin-top: -10px;
+}
+.pieconfi{
+    color: rgb(255, 255, 255);
+}
+.NavEnlace{
+    display: inline-block;
+    background: rgba(221, 159, 88, 0.623);
+    color: orangered;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.NavEnlace:hover{
+    background: sienna;
+    color: rgb(255, 255, 255);
+}
+.Div-Padre{
+    display:flex;
+    justify-content: flex-end;
+}
+.slider{
+    background-image: url("imagenes/fondo 003.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}  
+  .item-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .item-image {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+  }
+  
+  .item-details > .item-price {
+    margin: 0;
+  }
+  
+  /* ? SHOPPING CART */
+  .shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
+  

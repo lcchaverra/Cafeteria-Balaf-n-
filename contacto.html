@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('user_NbWHHoXNBSbJSJeC7s6uJ');
+        })();
+    </script>
+    <!--Informacion de la Pestaña-->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="estilos.css">
+    <title>Café | Contactanos</title>
+  </head>
+  <!--Cuerpo de la Pagina Web-->
+  <body class="container-fluid slider">
+    <hr>
+    <!-- Menú de Navegación -->
+    <nav class="container Div-Padre">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <a class="navbar-brand" href="index.html">Inicio</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+               <a class="nav-link" href="menu.html">Menú <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Nosotros
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="contacto.html">Contactanos</a>
+               </div>
+             </li>
+           </ul>
+         </div>
+         <div>
+             <a href="https://www.facebook.com/balafoncafe/" class="btn btn-outline-primary">Facebook</a>
+         </div>
+       </nav>
+     </nav>
+       <!--Cabezera de la Pagina Web-->
+    <header>
+    <img src="imagenes/logo.png" alt="La imagen no está disponible" width="150" class="MargenesLogo">
+    <img src="imagenes/tarjeta.PNG" alt="La imagen no está disponible" class="MargenesTarjeta">
+    </header>
+    <hr>
+      <!-- Información Principal -->
+      <h1 class="TituloPrincipal">BALAFON Café</h1>
+      <p class="SubTituloPrincipal">
+          Restaurante & Caféteria <br>
+      </p>
+      <section class="container">
+        <h2 class="TituloContactoMargen">¡Contactanos!</h2>
+        <p>
+            Formulario de Contacto, por favor llena los campos para ponerte en contacto con nosotros<br> 
+            Dirección: Carrera 3 # 24a-73 Quibdó - Chocó <br> Teléfono : 6725968
+        </p>
+      </section>
+          <!--Formulario de Contacto-->
+      <section class="container">
+        <form id="ContactoID">
+            <div class="form-group">
+                <label for="exampleInputName1">Nombre Completo:</label>
+                <input type="text" class="form-control" name="nombre_usuario" placeholder="Ingresa Tu Nombre Completo">
+              </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Correo Electronico:</label>
+              <input type="email" class="form-control" name="email_usuario" aria-describedby="emailHelp" placeholder="Ingresa Tu correo Electronico">
+              <small id="emailHelp" class="form-text text-muted">Tu correo no será compartido con Nadie.</small>
+            </div>
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Correo Electronico Balafon</label>
+                <div class="col-sm-10">
+                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="balafoncoffee@gmail.com">
+                </div>
+              </div>
+            <div class="form-group">
+              <label>¿Qué nos Deseas Decir?</label>
+              <textarea name = "Texto" class="form-control"  rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Enviar</button>
+          </form>
+      </section>
+      <!-- Pie de PAgina -->
+      <div>
+        <hr>
+        <p class="pieconfi">
+            ©2020 Desarrollado por Luis Carlos Chaverra Córdoba
+        </p>
+        <hr>
+    </div>
+    <script type="text/javascript">
+      window.onload = function() {
+          document.getElementById('ContactoID').addEventListener('submit', function(event) {
+              event.preventDefault();
+              emailjs.sendForm('11932238243234854645', 'template_28hzft8', this)
+                  .then(function() {
+                      console.log('SUCCESS!');
+                  }, function(error) {
+                      console.log('FAILED...', error);
+                  });
+          });
+      }
+  </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
